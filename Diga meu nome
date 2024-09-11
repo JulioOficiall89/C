@@ -1,0 +1,20 @@
+#include <stdio.h> 
+
+int main() {
+    char nome[100]; 
+    int idade;      
+
+    printf("Digite seu nome: ");
+
+    scanf("%99[^\n]", nome);
+
+    while (getchar() != '\n');
+
+    printf("Digite sua idade: ");
+
+    scanf("%d", &idade);
+
+    printf("Olá, meu nome é %s e eu tenho %d anos.\n", nome, idade);
+
+    return 0; 
+}
