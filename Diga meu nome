@@ -1,3 +1,4 @@
+
 #include <stdio.h> 
 
 int main() {
@@ -14,7 +15,7 @@ int main() {
 
     scanf("%d", &idade);
 
-    printf("Olá, meu nome é %s e eu tenho %d anos.\n", nome, idade, e esse é meu primeiro projeto);
+    printf("Olá, meu nome é %s e eu tenho %d anos\n e esse é meu primeiro projeto.", nome, idade);
 
     return 0; 
 }
